@@ -1,1 +1,28 @@
 
+RewriteEngine On
+  
+# Send would-be 404 requests to Craft
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+
+RewriteRule ^index$ php/index.php [NC]
+RewriteRule ^profile$ php/profile.php [NC]
+RewriteRule ^js/$ - [F]
+RewriteRule ^php/$ - [F]
+RewriteRule ^styl/$ - [F]
+~                                                                                                                                                                                                                                          
+~                                                                                                                                                                                                                                          
+~                                                                                                                                                                                                                                          
+~                                                                                                                                                                                                                                          
+~                                                                                                                                                                                                                                          
+~                                                                                                                                                                                                                                          
+~                                                                                                                                                                                                                                          
+~                                                                                                                                                                                                                                          
+~                                                                                                                                                                                                                                          
+~                                                                                                                                                                                                                                          
+~                                                                                                                                                                                                                                          
+~                                                                                                                                                                                                                                          
+~                                                                                                                                                                                                                                          
+~                                            
